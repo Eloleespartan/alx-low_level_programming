@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
-/* main - entry point
+/* main - Entry point
 *
-* Return: 0 if success
+* Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -15,7 +15,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		print("%d is positive\n", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{
