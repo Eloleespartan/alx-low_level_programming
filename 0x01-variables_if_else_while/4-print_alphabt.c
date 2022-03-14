@@ -1,13 +1,13 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
-* main - Entry point
+* main- Entry point
 *
 *Return: Always 0 (Success)
 */
-
-int main(void) 
+int main(void)
 {
-    for(char ch = 'a'; ch <= 'z'; ch ++)
+    for(char ch= 'a'; ch <= 'z'; ch ++)
     {
         if(ch != 'e' && ch != 'q')
         {
